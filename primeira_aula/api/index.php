@@ -1,2 +1,0 @@
-<?php
-    //CÓDIGO PRINCIPAL DA API
