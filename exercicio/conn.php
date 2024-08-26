@@ -5,9 +5,9 @@ $db = 'etecmcm';
 $user = 'root';
 $pass = '';
 
-$conn = new mysqli($host,$user,$pass,$db);
+$conexao = new mysqli($host,$user,$pass,$db);
 
-if ($conn->connect_error) {
+if ($conexao->connect_error) {
     die();
 }
 // else{
